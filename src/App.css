@@ -1,0 +1,39 @@
+.App {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#explain {
+  width: 25%;
+}
+
+#genogram {
+  width: 75%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.diagram-component {
+  width: 100%;
+  height: 1000px;
+  border: solid 1px black;
+  background-color: rgb(136, 136, 136, 0.9);
+}
+
+.diagram-explain-component {
+  width: 100%;
+  height: 1000px;
+  border: solid 1px black;
+  background-color: rgb(136, 136, 136, 0.9);
+}
